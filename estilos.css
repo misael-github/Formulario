@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    background:#393E46 ;
+    
+}
+.titulo {
+    display: flex;
+    
+}
+h1 {
+text-align: left;
+background-color: #19d3da;
+padding: 40px;
+padding-left: 80px;
+font-size: 40px;
+margin: 0 100px 0 100px;
+border-radius: 5px;
+
+
+} 
+.subtitulo {
+    display: flex;
+    justify-content: center;
+}
+ h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    color:#fff;
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    
+}
+.formulario {
+    height: 50rem;
+    background-color: #46F2A2;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 0px 10px 10px #1a1d1b;
+}
+form {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 20px;
+    color: #fff;
+    background: #fff;
+   border-radius: 5px;
+   box-sizing: border-box;
+   
+}
+
+label {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+   
+   
+}
+
+input{
+    margin-bottom: 25px;
+    margin-top: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 100%;
+  
+   
+}
+.enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"] {
+    margin-top: 5rem;
+    background-color: #3eaf7a;
+    border: none;
+    width: 6rem;
+   justify-content: center;
+   border-radius: 5px;
+   
+   color: black;
+   
+}
+
+input[type="radio"] {
+    width: 15px;
+}
+input[type="submit"]:hover {
+    background:rgb(49, 40, 40);
+    cursor: pointer;
+    color: #fff;
+   
+
+}
+
+select {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: rgb(207, 213, 226);
+    font-size: 13px;
+}
+option {
+    font-size: 15px;
+    background: #fff;
+}
+
+select:hover {
+    background: #99a8b2;
+}
+
+.parrafo {
+
+    color:black
+}
+.label1{ width: 100%;
+
+}
+.label2{
+    width: 100%;
+}
+#experiencia {
+    background-color: #fff;
+    margin-top:15px ;
+}
+input[type="checkbox"] {
+  width: 6%;
+}
+.labelp {
+margin-right: 15px;
+font-size: 16px;
+}
+.react {
+    display: inline;
+    margin: 40px;
+    color:blue;
+}
+.angular{
+    color: orangered;
+    display: inline;
+    margin: 40px;
+
+}
+.pyton {
+    display: inline;
+    color: blue;
+    margin: 40px;
+
+}
+.java {
+    display: inline;
+    margin: 40px;
+    color: rgb(247, 247, 17);
+}
+.node {
+    display: inline;
+    margin: 40px;
+    color: blue;
+}
