@@ -41,10 +41,10 @@ body {
     display: inline;
   }
   .react {
-    color: rgb(0, 174, 255);
+    color: rgb(0 220 255);
   }
   .angular {
-    color: rgb(255, 94, 0);
+    color: rgb(255 141 0);
   }
   .pyton {
     color: rgba(0, 162, 255, 0.541);
@@ -53,13 +53,14 @@ body {
     color: rgb(247, 247, 17);
   }
   .node {
-    color: rgb(21, 70, 1);
+    color: rgb(122 230 77);
+
   }
   
 
 h1 {
   text-align: left;
-  color: white;
+  color: black;
 }
 .subtitulo {
   display: flex;
@@ -70,6 +71,7 @@ h2 {
   margin-bottom: 50px;
   font-size: 30px;
   margin-top: 20px;
+  font-weight: 500;
   /* color: #fff; */
 }
 
