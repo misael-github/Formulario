@@ -1,174 +1,183 @@
 body {
-    font-family: sans-serif;
-    background:#393E46 ;
-    
+  font-family: sans-serif;
+  background: #FFEBA1;
+  margin: 0;
 }
-.titulo {
-    display: flex;
-    
+.container-titulo-iconos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 1px;
+  background-color: #6F69AC;
+  margin-bottom: 20px;
 }
-h1 {
-text-align: left;
-background-color: #19d3da;
-padding: 40px;
-padding-left: 80px;
-font-size: 40px;
-margin: 0 100px 0 100px;
-border-radius: 5px;
+.container-iconos {
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-
-} 
-.subtitulo {
+@media (min-width: 890px) {
+  .container-titulo-iconos {
     display: flex;
-    justify-content: center;
-}
- h2{
-    text-align: center;
-    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+  }
+  .container-iconos {
+    display: flex;
+    justify-content: space-around;
     font-size: 30px;
-    margin-top: 20px;
-    color:#fff;
-    
+    width: 50%;
+  }
+}
+.fab {
+    display: inline;
+  }
+  .react {
+    color: rgb(0, 174, 255);
+  }
+  .angular {
+    color: rgb(255, 94, 0);
+  }
+  .pyton {
+    color: rgba(0, 162, 255, 0.541);
+  }
+  .javascript {
+    color: rgb(247, 247, 17);
+  }
+  .node {
+    color: rgb(21, 70, 1);
+  }
+  
+
+h1 {
+  text-align: left;
+  color: white;
+}
+.subtitulo {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+  margin-top: 20px;
+  /* color: #fff; */
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 .formulario {
-    height: 50rem;
-    background-color: #46F2A2;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 5px 0px 10px 10px #1a1d1b;
+  width: 90%;
+  margin-bottom: 30px;
 }
 form {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #ccc;
-    margin: auto;
-    padding: 20px;
-    color: #fff;
-    background: #fff;
-   border-radius: 5px;
-   box-sizing: border-box;
-   
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  margin: auto;
+  padding: 20px;
+  color: #fff;
+  background: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+@media (min-width: 890px) {
+  form {
+    width: 70%;
+  }
+  .formulario {
+    background-color: transparent;
+  }
 }
 
 label {
-    font-size: 14px;
-    color: black;
-    margin-bottom: 20px;
-   
-   
+  font-size: 14px;
+  color: black;
+  margin-bottom: 20px;
 }
 
-input{
-    margin-bottom: 25px;
-    margin-top: 15px;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    background: #fff;
-    width: 100%;
-  
-   
+input {
+  margin-bottom: 25px;
+  margin-top: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 100%;
 }
 .enviar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input[type="submit"] {
-    margin-top: 5rem;
-    background-color: #3eaf7a;
-    border: none;
-    width: 6rem;
-   justify-content: center;
-   border-radius: 5px;
-   
-   color: black;
-   
+  margin-top: 5rem;
+  background-color: #95DAC1;
+  border: none;
+  width: 6rem;
+  justify-content: center;
+  border-radius: 5px;
+
+  color: black;
 }
 
 input[type="radio"] {
-    width: 15px;
+  width: 15px;
 }
 input[type="submit"]:hover {
-    background:rgb(49, 40, 40);
-    cursor: pointer;
-    color: #fff;
-   
-
+  background: rgb(49, 40, 40);
+  cursor: pointer;
+  color: #fff;
 }
 
 select {
-    margin-bottom: 20px;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    background-color: rgb(207, 213, 226);
-    font-size: 13px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: rgb(207, 213, 226);
+  font-size: 13px;
 }
 option {
-    font-size: 15px;
-    background: #fff;
+  font-size: 15px;
+  background: #fff;
 }
 
 select:hover {
-    background: #99a8b2;
+  background: #99a8b2;
 }
 
 .parrafo {
-
-    color:black
+  color: black;
 }
-.label1{ width: 100%;
-
+.label1 {
+  width: 100%;
 }
-.label2{
-    width: 100%;
+.label2 {
+  width: 100%;
 }
 #experiencia {
-    background-color: #fff;
-    margin-top:15px ;
+  background-color: #fff;
+  margin-top: 15px;
 }
 input[type="checkbox"] {
-  width: 6%;
+  width: 20px;
 }
-.labelp {
-margin-right: 15px;
-font-size: 16px;
+.input-check-notificaciones{
+ padding: 10px;
+ text-align: center;
 }
-.react {
-    display: inline;
-    margin: 40px;
-    color:blue;
-}
-.angular{
-    color: orangered;
-    display: inline;
-    margin: 40px;
 
-}
-.pyton {
-    display: inline;
-    color: blue;
-    margin: 40px;
-
-}
-.java {
-    display: inline;
-    margin: 40px;
-    color: rgb(247, 247, 17);
-}
-.node {
-    display: inline;
-    margin: 40px;
-    color: blue;
-}

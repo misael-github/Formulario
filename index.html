@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset='utf-8'>
+  <head>
+    <meta charset="utf-8" />
     <title>Conferencia</title>
-    <script src="https://kit.fontawesome.com/d33c08a0bc.js" crossorigin="anonymous"></script>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap" rel = "stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
-    </head>
-<body>
-   <header>
-       <div class="titulo">
-    <h1>Mundo Programing  <div class="react"><i class="fab fa-react"></i></div> <div class="angular"><i class="fab fa-angular"></i></div>
-    <div class="pyton"><i class="fab fa-python"></i></div> <div class="java"><i class="fab fa-js"></i></div>
-<div class="node"><i class="fab fa-node-js"></i></div></h1>
-</div>
-<div class="subtitulo">
-    <h2>¡Inscribite al mejor congreso Nerd de programadores de Argentina!</h2>
-</div>
+    <script
+      src="https://kit.fontawesome.com/d33c08a0bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-titulo-iconos">
+        <h1>Mundo Programing</h1>
+        <div class="container-iconos">
+          <div class="react"><i class="fab fa-react"></i></div>
+          <div class="angular"><i class="fab fa-angular"></i></div>
+          <div class="pyton"><i class="fab fa-python"></i></div>
+          <div class="javascript"><i class="fab fa-js"></i></div>
+          <div class="node"><i class="fab fa-node-js"></i></div>
+        </div>
+      </div>
+      <div class="subtitulo">
+        <h2>
+          ¡Inscribite al mejor congreso nerd de programadores de Argentina!
+        </h2>
+      </div>
     </header>
-   <section>
-<div class="formulario">
-    <form action="https://formspree.io/f/xleonqdn" method="POST">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre">
+    <section>
+      <div class="formulario">
+        <form action="https://formspree.io/f/xleonqdn" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" />
 
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="Apellido">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="Apellido" />
 
-        <label for="nombre">Email:</label>
-        <input type="email" id="nombre" name="nombre" placeholder="juan123@gmail.com">
+          <label for="nombre">Email:</label>
+          <input
+            type="email"
+            id="nombre"
+            name="nombre"
+            placeholder="juan123@gmail.com"
+          />
 
-        <label for="experiencia">Seniority:</label>
-        <select name="experiencia" id="experiencia">
-            
+          <label for="experiencia">Seniority:</label>
+          <select name="experiencia" id="experiencia">
             <option disabled>Selecciona una opcion</option>
             <option value="Junior">Junior</option>
             <option value="Junior">Semi senior</option>
             <option value="Senior">Senior</option>
-        </select>
-            <div class="parrafo">
-             <p>Indica un numero binario que mas te guste. Este dato es para una actividad sorpresa!</p>
-            </div>
-            <div class="label1">
-             <label for="cero">0</label>
-             <input type="radio" name="dato-sorpresa" id="cero">
-             </div>
-             <div class="label2">
-             <label for="uno">1</label>
-            <input type="radio" name="dato-sorpresa" id="uno">
-             </div>
-            
-            
-            <input type="checkbox" name="notificaciones" id="notificaciones" value="si">
-            <label class="labelp" for="notificaciones">¿quieres recibir notificaciones sobre los proximos congresos?</label>
-            <div class="enviar">
-            <input type="submit" value="Enviar">
+          </select>
+          <div class="parrafo">
+            <p>
+              Indica un numero binario que mas te guste. Este dato es para una
+              actividad sorpresa!
+            </p>
+          </div>
+          <div class="label1">
+            <label for="cero">0</label>
+            <input type="radio" name="dato-sorpresa" id="cero" />
+          </div>
+          <div class="label2">
+            <label for="uno">1</label>
+            <input type="radio" name="dato-sorpresa" id="uno" />
+          </div>
+          <div class="input-check-notificaciones">
+          <input
+            type="checkbox"
+            name="notificaciones"
+            id="notificaciones"
+            value="si"
+          />
+          
+          <label class="labelp" for="notificaciones"
+            >¿quieres recibir notificaciones sobre los proximos
+            congresos?</label
+          >
         </div>
-    </form>
-</div>
+          <div class="enviar">
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
     </section>
-        
-</body>
+  </body>
 </html>
